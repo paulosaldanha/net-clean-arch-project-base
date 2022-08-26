@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/paulodasilva/Documents/dotnet/base-project/BaseApi.Tests/BaseApi.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/paulodasilva/Documents/dotnet/base-project/BaseApi.Tests/BaseApi.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/paulodasilva/Documents/dotnet/base-project/BaseApi.Tests/BaseApi.Tests.csproj",
+        "projectName": "BaseApi.Tests",
+        "projectPath": "/Users/paulodasilva/Documents/dotnet/base-project/BaseApi.Tests/BaseApi.Tests.csproj",
+        "packagesPath": "/Users/paulodasilva/.nuget/packages/",
+        "outputPath": "/Users/paulodasilva/Documents/dotnet/base-project/BaseApi.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/paulodasilva/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/paulodasilva/Documents/dotnet/base-project/BaseApi/BaseApi.csproj": {
+                "projectPath": "/Users/paulodasilva/Documents/dotnet/base-project/BaseApi/BaseApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/paulodasilva/Documents/dotnet/base-project/BaseApi/BaseApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/paulodasilva/Documents/dotnet/base-project/BaseApi/BaseApi.csproj",
+        "projectName": "BaseApi",
+        "projectPath": "/Users/paulodasilva/Documents/dotnet/base-project/BaseApi/BaseApi.csproj",
+        "packagesPath": "/Users/paulodasilva/.nuget/packages/",
+        "outputPath": "/Users/paulodasilva/Documents/dotnet/base-project/BaseApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/paulodasilva/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
